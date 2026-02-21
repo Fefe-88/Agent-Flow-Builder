@@ -25,6 +25,8 @@ It supports **OpenAI**, **Google Gemini**, and **Anthropic Claude** out of the b
 
 ## Getting Started
 
+First, install the extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=fefe-88.agent-flow-builder).
+
 1. Open the **Agent Flow Builder** view in VS Code.
 2. Create a new flow or open an existing `.agent` file.
 3. Drag and drop components from the palette onto the canvas.
