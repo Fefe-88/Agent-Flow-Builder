@@ -1,5 +1,8 @@
 # Agent Flow Builder
 
+![alt text](https://github.com/Fefe-88/Agent-Flow-Builder/blob/main/example_1.png?raw=true)
+
+
 **Agent Flow Builder** is a Visual Studio Code extension that lets you visually design complex AI agent workflows using a drag-and-drop editor — and **automatically generates production-ready Node.js / JavaScript code** from your flow. No boilerplate, no manual wiring: just connect blocks, configure your agents, and the extension writes the code for you.
 
 It supports **OpenAI**, **Google Gemini**, and **Anthropic Claude** out of the box, with built-in capabilities for text generation, structured JSON output, image generation, vision, text-to-speech, speech-to-text, web search, and advanced reasoning/thinking models.
@@ -93,7 +96,7 @@ To run the generated code, simply import the function in your Node.js applicatio
 const { runMyFlow } = require('./my_agent_flow.js');
 
 async function main() {
-  const result = await runMyFlow();
+  const result = await runMyFlow({ state: {}, conversationHistory: [] });
   console.log(result);
 }
 main();
